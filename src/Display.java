@@ -1,21 +1,22 @@
 public class Display {
     public State idleDisplay;
-    public Type tempDisplay;
+    public State tempDisplay;
     public int batteryPower;
     public State displayOnOff;
     public State displayOn(){
+        return displayOnOff;
 
     }
-    public State displayPower(){
+    public int displayPower(){
+        return batteryPower;
 
     }
     public State displayIdle(){
+        return idleDisplay;
 
     }
-    Public Type displayTemp(){
+    public State displayTemp(){
         return tempDisplay;
     }
-    public int batteryPower(){
-
-    }
+    //TODO make sure that the battery power method isn't in the other documents
 }

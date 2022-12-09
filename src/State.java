@@ -12,6 +12,7 @@ public class State {
     }
     public int reset(){
         //if statement returns based on the number of clicks
+        //unsure what it's supposed to return
         return;
     }
     public int tempMeasured(){
@@ -20,6 +21,7 @@ public class State {
     }
     public int buttonTest(){
         //if statement to determine the state
+        //still unsure what this method is supposed to return
         return ready;
     }
 
