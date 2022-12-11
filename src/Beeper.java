@@ -6,7 +6,7 @@ public class Beeper {
     public State idle;
     public State off;
     public State beepOnce(){
-        //if statement that checks if the state is idel and then returns idle and beeps once
+        //if statement that checks if the state is idle and then returns idle and beeps once
 //if statement for if the state of the program is off, then it beeps once with its return statement
         return isOffBeep;
     }
