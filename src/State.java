@@ -6,7 +6,7 @@ public class State {
     public boolean idle;
     public boolean ready;
     public boolean isOn(){
-        //if statement
+        //if statement to determine whether its state is on
         return ready;
     }
     public boolean isIdle(){
@@ -24,7 +24,6 @@ public class State {
     }
     public Test buttonTest(){
         //if statement to determine the state
-        //still unsure what this method is supposed to return
         return testCompleted;
     }
 
