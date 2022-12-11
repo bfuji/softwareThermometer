@@ -3,12 +3,15 @@ public class Beeper {
     public State isOnBeep;
     public State isOffBeep;
     public State tempBeep;
+    public State idle;
+    public State off;
     public State beepOnce(){
-        return isOnBeep;
+        //if statement that checks if the state is idel and then returns idle and beeps once
+//if statement for if the state of the program is off, then it beeps once with its return statement
         return isOffBeep;
-//TODO deteremine the conditions.
     }
     public State beepTwice(){
+        //if statement for whether the temperature is completed and beeps twice
         return tempBeep;
 
     }
